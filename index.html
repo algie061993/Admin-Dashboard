@@ -10,18 +10,28 @@
     <div id="container">
       <div id="sidebar">
         <div id="logo">
-          <img src="./assets/Icons/view-dashboard.svg" alt="Dashboard Logo" />
+          <img
+            id="dashboard-icon"
+            src="./assets/Icons/view-dashboard.svg"
+            alt="Dashboard Logo"
+          />
           <h1>Dashboard</h1>
         </div>
         <ul>
           <li>
             <a href="#"
-              ><img src="./assets/Icons/home.svg" alt="Home" /> Home</a
+              ><img
+                class="menu-icons"
+                src="./assets/Icons/home.svg"
+                alt="Home"
+              />
+              Home</a
             >
           </li>
           <li>
             <a href="#"
               ><img
+                class="menu-icons"
                 src="./assets/Icons/card-account-details.svg"
                 alt="Profile"
               />
@@ -30,48 +40,111 @@
           </li>
           <li>
             <a href="#"
-              ><img src="./assets/Icons/message.svg" alt="Messages" />
+              ><img
+                class="menu-icons"
+                src="./assets/Icons/message.svg"
+                alt="Messages"
+              />
               Messages</a
             >
           </li>
           <li>
             <a href="#"
-              ><img src="./assets/Icons/clock-time-five.svg" alt="History" />
+              ><img
+                class="menu-icons"
+                src="./assets/Icons/clock-time-five.svg"
+                alt="History"
+              />
               History</a
             >
           </li>
           <li>
             <a href="#"
-              ><img src="./assets/Icons/note-multiple.svg" alt="Task" /> Task</a
+              ><img
+                class="menu-icons"
+                src="./assets/Icons/note-multiple.svg"
+                alt="Task"
+              />
+              Task</a
             >
           </li>
           <li>
             <a href="#"
-              ><img src="./assets/Icons/account-group.svg" alt="Communities" />
+              ><img
+                class="menu-icons"
+                src="./assets/Icons/account-group.svg"
+                alt="Communities"
+              />
               Communities</a
             >
           </li>
           <li>
             <a href="#"
-              ><img src="./assets/Icons/cog.svg" alt="Settings" /> Settings</a
+              ><img
+                class="menu-icons"
+                src="./assets/Icons/cog.svg"
+                alt="Settings"
+              />
+              Settings</a
             >
           </li>
           <li>
             <a href="#"
-              ><img src="./assets/Icons/help-box.svg" alt="Support" />
+              ><img
+                class="menu-icons"
+                src="./assets/Icons/help-box.svg"
+                alt="Support"
+              />
               Support</a
             >
           </li>
           <li>
             <a href="#"
-              ><img src="./assets/Icons/shield-lock.svg" alt="Privacy" />
+              ><img
+                class="menu-icons"
+                src="./assets/Icons/shield-lock.svg"
+                alt="Privacy"
+              />
               Privacy</a
             >
           </li>
         </ul>
       </div>
       <div id="header">
-        <h2>Dashboard Header</h2>
+        <!-- search and  icons and user input -->
+        <div id="search">
+          <img
+            class="header-icon"
+            src="./assets/Icons/magnify.svg"
+            alt="Search Icon"
+          />
+          <input type="text" placeholder="Search..." />
+        </div>
+
+        <!-- Notification icon and user profile -->
+        <div id="notifications-profile">
+          <img
+            class="header-icon"
+            src="./assets/Icons/bell-ring-outline.svg"
+            alt="Notifications"
+          />
+          <div id="profile-badge">
+            <img
+              src="./assets/Icons/face-man-profile.svg"
+              alt="User Avatar"
+              class="profile-img"
+            />
+            <span>John Doe</span>
+          </div>
+        </div>
+
+        <div id="info">
+          <img
+            class="header-icon"
+            src="./assets/Icons/face-man-profile.svg"
+            alt="profile-pic"
+          />
+        </div>
       </div>
       <div id="content">
         <h3>Dashboard Content</h3>
